@@ -1,0 +1,82 @@
+Analysis started on 14Aug16_23:01
+Iteration 1 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 1 yielded delta = 0.052157
+Iteration 2 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 2 yielded delta = 0.0013312
+Iteration 3 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 3 yielded delta = 4.2953e-05
+Iteration 4 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 4 yielded delta = 2.4569e-06
+Iteration 5 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 5 yielded delta = 1.4973e-07
+Iteration 6 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 6 yielded delta = 9.5791e-09
+Iteration 7 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 7 yielded delta = 6.3742e-10
+Iteration 8 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 8 yielded delta = 4.384e-11
+Iteration 9 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 9 yielded delta = 3.1021e-12
+Iteration 10 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 10 yielded delta = 2.2501e-13
+Iteration 11 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 11 yielded delta = 1.6681e-14
+Iteration 12 started; 0 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 12 yielded delta = 1.2604e-15
+Iteration 13 started; 1 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 13 yielded delta = 9.6833e-17
+Iteration 14 started; 1 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 14 yielded delta = 7.5482e-18
+Iteration 15 started; 1 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 15 yielded delta = 5.9583e-19
+Iteration 16 started; 1 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 16 yielded delta = 4.7545e-20
+Iteration 17 started; 1 sec elapsed; max iterations = 9000; max time = 10 sec.
+Iteration 17 yielded delta = 3.8294e-21
+Convergence met
+{Undefined variable "input_NSPDA" or function "input_NSPDA.m".
+
+Error in <a href="matlab:helpUtils.errorDocCallback('praisys_main', 'D:\PRAISys\praisysmatlab\Trunk\praisys_main.m', 338)" style="font-weight:bold">praisys_main</a> (<a href="matlab: opentoline('D:\PRAISys\praisysmatlab\Trunk\praisys_main.m',338,0)">line 338</a>)
+run(input_NSPDA.m);
+} 
+praisys_main
+[Warning: Inputs must be character arrays or cell arrays of strings.] 
+[> In <a href="matlab: opentoline('D:\MATLAB\R2013a\toolbox\matlab\lang\run.m',33,1)">run at 33</a>
+  In <a href="matlab: opentoline('D:\PRAISys\praisysmatlab\Trunk\praisys_main.m',14,1)">praisys_main at 14</a>] 
+{Error using <a href="matlab:helpUtils.errorDocCallback('fileparts', 'D:\MATLAB\R2013a\toolbox\matlab\iofun\fileparts.m', 34)" style="font-weight:bold">fileparts</a> (<a href="matlab: opentoline('D:\MATLAB\R2013a\toolbox\matlab\iofun\fileparts.m',34,0)">line 34</a>)
+Input must be a row vector of characters.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('run', 'D:\MATLAB\R2013a\toolbox\matlab\lang\run.m', 36)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('D:\MATLAB\R2013a\toolbox\matlab\lang\run.m',36,0)">line 36</a>)
+[fileDir,script,ext] = fileparts(scriptname);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('praisys_main', 'D:\PRAISys\praisysmatlab\Trunk\praisys_main.m', 14)" style="font-weight:bold">praisys_main</a> (<a href="matlab: opentoline('D:\PRAISys\praisysmatlab\Trunk\praisys_main.m',14,0)">line 14</a>)
+run([PathName,FileName])
+} 
+{Undefined function or variable 'starttime'.
+} 
+xy
+{Undefined function or variable 'xy'.
+} 
+ST
+{Undefined function or variable 'ST'.
+} 
+ST
+
+ST = 
+
+    nodes: [9x4 double]
+
+ST.nodes
+
+ans =
+
+           2           0       10000       10000
+           1           1        5000        5000
+           0           2       10000       10000
+           3           0        5000        5000
+           3           1        5000        5000
+           3           2        5000        5000
+           4           0       10000       10000
+           5           1        5000        5000
+           6           2       10000       10000
+

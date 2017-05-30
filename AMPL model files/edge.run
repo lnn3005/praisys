@@ -1,0 +1,17 @@
+reset;
+
+model edge.mod;
+data edge9.dat;
+
+option solver cplex;
+
+solve;
+
+for {t in 1..numPeriods} {
+    display t;
+	display {(i,j) in E} u[t,i,j]; 
+    display {(i,j) in E} x[t,i,j];
+	display {(i,j) in E} v[t,i,j];
+}
+
+display _total_solve_time;
