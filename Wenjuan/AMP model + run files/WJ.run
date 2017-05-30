@@ -1,0 +1,14 @@
+reset;
+
+model WJ.mod;
+data WJ.dat;
+
+solve;
+
+display obj;
+
+display T;
+
+display y;
+
+display _total_solve_time;

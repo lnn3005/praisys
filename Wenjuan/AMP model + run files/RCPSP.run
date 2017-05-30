@@ -1,0 +1,8 @@
+reset;
+
+model RCPSP.mod;
+data RCPSP.dat;
+
+solve;
+
+display x;
